@@ -1,0 +1,2 @@
+- Read about dependencies and dev dependencies
+- Learn about git and github    

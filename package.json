@@ -1,0 +1,22 @@
+{
+  "name": "reactbasics",
+  "version": "1.0.0",
+  "description": "Here I am learning all the basics of react again",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prajapati-priyanka/react_basics_practise.git"
+  },
+  "author": "Priyanka Prajapati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prajapati-priyanka/react_basics_practise/issues"
+  },
+  "homepage": "https://github.com/prajapati-priyanka/react_basics_practise#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}
