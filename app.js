@@ -24,9 +24,9 @@
 // const parent = React.createElement("div",{className:"parent"}, React.createElement("div", {className:"child"}, [React.createElement("h1",{id:"heading"}, "Hello World From React!!"), React.createElement("h1",{id:"heading"}, "Hello World From Brother React!!")]))
 
 // You can also add multiple children comma separated. With this you do not need to add a KEY.
-const parent = React.createElement("div",{className:"parent"}, React.createElement("div", {className:"child"}, React.createElement("h1",{id:"heading"}, "Hello World From React!!"), React.createElement("h1",{id:"heading"}, "Hello World From Brother React!!")))
+// const parent = React.createElement("div",{className:"parent"}, React.createElement("div", {className:"child"}, React.createElement("h1",{id:"heading"}, "Hello World From React!!"), React.createElement("h1",{id:"heading"}, "Hello World From Brother React!!")))
  
-console.log(parent);
+// console.log(parent);
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(parent);
