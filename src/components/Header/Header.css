@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 5rem;
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, .15);
+}
+
+.heading{
+    color: var(--primary-color)
+}
+
+.navbar-list{
+    gap: 2rem;
+}
+.navbar-list li:hover{
+    color: var(--primary-color);
+    cursor: pointer;
+}
