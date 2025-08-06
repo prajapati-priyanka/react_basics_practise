@@ -1,0 +1,83 @@
+.footer-container {
+  background-color: var(--footer-background-color);
+  width: 100%;
+  padding: 2rem 5rem;
+  position: fixed;
+  bottom: 0;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 5rem;
+  display: flex;
+  box-shadow: 0 15px 40px -20px #282c3f26;
+}
+
+.heading {
+  color: var(--primary-color);
+}
+
+.navbar-list {
+  gap: 2rem;
+}
+
+.navbar-list li:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.main-container {
+  margin: 3rem 5rem;
+}
+
+.main-heading {
+  font-weight: 900;
+}
+
+.res-card-container {
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  row-gap: 3rem;
+  margin-top: 2rem;
+  display: grid;
+}
+
+.res-card {
+  cursor: pointer;
+  max-width: 245px;
+  transition: all .2s;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.res-body {
+  padding: .5rem 1rem;
+}
+
+.res-name {
+  color: var(--font-color);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-18);
+}
+
+.res-rating, .res-delivery-time, .res-cuisines, .res-address {
+  color: var(--light-font-color);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-200);
+}
+
+.res-cuisines {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+}
+
+.res-card:hover {
+  transform: scale(.97);
+}
+/*# sourceMappingURL=react_basics_practise.aa436662.css.map */

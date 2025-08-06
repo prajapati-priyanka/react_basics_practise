@@ -1,0 +1,51 @@
+.main-container {
+  margin: 3rem 5rem;
+}
+.main-heading {
+  font-weight: 900;
+}
+.res-card-container{
+  margin-top: 2rem;
+ display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  row-gap: 3rem;
+}
+.res-card {
+  max-width: 245px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.res-body {
+  padding: 0.5rem 1rem;
+}
+.res-name {
+  color: var(--font-color);
+  font-weight: var(--font-weight-600);
+  font-size: var(--font-size-18);
+}
+.res-rating,
+.res-delivery-time,
+.res-cuisines,
+.res-address {
+  color: var(--light-font-color);
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-200);
+}
+
+.res-cuisines {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.res-card:hover {
+  /* padding: 0.2rem; */
+  transform: scale(0.97);
+}

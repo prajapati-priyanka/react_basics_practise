@@ -1,8 +1,119 @@
-#root{
 
-    color:red
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lato:wght@400;700;900&display=swap');
+
+
+html {
+  font-size: 62.5%;
 }
-#heading{
-    
-    color:blue
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  /* colors */
+  --primary-color: #ff5200;
+  --add-to-cart-color: rgb(27, 166, 114);
+  --badge-color: #ffa700;
+  --main-background-color: rgb(255, 255, 255);
+  --dark-grey-backgound-color: rgb(255, 255, 255);
+  --slider-color: rgb(255, 82, 0);
+  --font-color: rgba(2, 6, 12, 0.92);
+  --light-font-color: rgba(2, 6, 12, 0.6);
+  --white-color: rgba(255, 255, 255, 0.92);
+  --footer-background-color: rgb(240,240,245);
+
+  /* font-weight */
+  --font-weight-600: 600;
+  --font-weight-400: 400;
+  --font-weight-200: 200;
+  --font-weight-bold: bold;
+  --font-weight-800: 800;
+  --font-weight-900: 900;
+
+  /* font-sizes */
+
+  --font-size-14: 1.4rem;
+  --font-size-16: 1.6rem;
+  --font-size-15: 1.5rem;
+  --font-size-18: 1.8rem;
+
+  h1 {
+    font-size: 4.8rem;
+    line-height: 6.4rem;
+    font-weight: 900;
+  }
+  h2 {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    font-weight: 700;
+  }
+  h3 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    font-weight: 600;
+  }
+  h4 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+  }
+  h5 {
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+  }
+  .x-lg-text {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .lg-text {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .md-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .sm-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .x-sm-text {
+    font-size: 0.5rem;
+    line-height: 1rem;
+  }
+
+  .text-muted {
+    color: var(--text-muted-color);
+  }
+  .text-left {
+    text-align: left;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .text-right {
+    text-align: right;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-400);
+  }
+}
+
+body {
+   font-family: "Arimo", sans-serif
+
+}
+.text-center{
+    text-align: center;
 }
