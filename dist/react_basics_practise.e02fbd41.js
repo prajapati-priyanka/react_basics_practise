@@ -18559,7 +18559,7 @@ $RefreshReg$(_c, "Header");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","./Header.css":"cYUAV","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react":"jMk1U"}],"cYUAV":[function() {},{}],"j1uXO":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Header.css":"cYUAV","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"cYUAV":[function() {},{}],"j1uXO":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$8a83 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$8a83.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -18646,7 +18646,7 @@ $RefreshReg$(_c, "Main");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","../RestaurantCard":"h3lE8","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Main.css":"h0mnx"}],"h3lE8":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","../RestaurantCard":"h3lE8","./Main.css":"h0mnx","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"h3lE8":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$18f1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$18f1.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
