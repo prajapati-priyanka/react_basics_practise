@@ -7,12 +7,11 @@
 .res-card-container{
   margin-top: 2rem;
  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  row-gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(270px, 100%), 1fr));
+  gap: 2rem;
 }
 .res-card {
-  max-width: 245px;
+  min-width: 245px;
   cursor: pointer;
   transition: 0.2s;
 }
