@@ -27,6 +27,10 @@ img {
   color: var(--font-color);
   font-weight: var(--font-weight-600);
   font-size: var(--font-size-18);
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .res-rating,
 .res-delivery-time,
@@ -37,7 +41,8 @@ img {
   font-weight: var(--font-weight-200);
 }
 
-.res-cuisines {
+
+.res-cuisines, .res-address {
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
