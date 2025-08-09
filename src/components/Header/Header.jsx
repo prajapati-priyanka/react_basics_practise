@@ -11,7 +11,7 @@ const Header = ()=>{
                     <li>Wishlist</li>
                     <li>Cart</li>
                     <li>Profile</li>
-                    <button className="login-btn" onClick={()=> loginBtn === "Login" ? setLoginBtn("Logout"): setLoginBtn("Login")}>{loginBtn}</button>
+                    <button className="btn login-btn" onClick={()=> loginBtn === "Login" ? setLoginBtn("Logout"): setLoginBtn("Login")}>{loginBtn}</button>
                 </ul>
             </nav>
         </header>

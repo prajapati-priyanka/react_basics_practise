@@ -116,3 +116,12 @@ body {
 .text-center{
     text-align: center;
 }
+.flex{
+  display: flex;
+}
+.btn{
+   padding: 0.5rem;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+}
