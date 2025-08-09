@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./Header.css";
 
 const Header = ()=>{
+    const [loginBtn, setLoginBtn] = useState("Login");
     return(
         <header className="header">
             <h2 className="heading">Food Wizard</h2>
@@ -10,6 +11,7 @@ const Header = ()=>{
                     <li>Wishlist</li>
                     <li>Cart</li>
                     <li>Profile</li>
+                    <button className="login-btn" onClick={()=> loginBtn === "Login" ? setLoginBtn("Logout"): setLoginBtn("Login")}>{loginBtn}</button>
                 </ul>
             </nav>
         </header>
