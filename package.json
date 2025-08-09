@@ -17,9 +17,11 @@
   "homepage": "https://github.com/prajapati-priyanka/react_basics_practise#readme",
   "description": "",
   "devDependencies": {
+    "buffer": "^6.0.3",
     "parcel": "^2.15.4"
   },
   "dependencies": {
+    "axios": "^1.11.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   }

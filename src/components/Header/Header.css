@@ -17,3 +17,7 @@
     color: var(--primary-color);
     cursor: pointer;
 }
+
+.login-btn:hover{
+    background-color: var(--primary-color);
+}
