@@ -33,13 +33,14 @@ const Main = () => {
     const { data, status } = response;
     if (status === 200) {
       const responseData =
-        data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
+        data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
       setListOfRestaurants(responseData);
       setFilteredRestaurants(responseData);
     }
   };
 
   const filterTopRatedRes = ()=>{
+
     const filteredTopRatedRes = listOfRestaurants.filter(res => res.info.avgRating > 4.2)
     setFilteredRestaurants(filteredTopRatedRes);
   }
