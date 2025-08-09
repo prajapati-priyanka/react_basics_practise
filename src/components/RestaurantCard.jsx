@@ -1,12 +1,12 @@
 import "./Main/Main.css";
 const RestaurantCard = (props) => {
     const {resData} = props;
-    const {name,avgRating,sla:{slaString}, cuisines,locality} = resData;
-    console.log("resData", resData);
+    const {name,avgRating,sla:{slaString}, cuisines,locality,cloudinaryImageId} = resData;
+    // console.log("resData", resData);
   return (
     <div className="res-card">
       <figure className="res-image">
-        <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/8/24/8dcf7245-861c-4c67-8d4c-a73927422e62_946888.jpg" />
+        <img src={`https://media-assets.swiggy.com/swiggy/image/upload/${cloudinaryImageId}`} />
       </figure>
       <div className="res-body">
         <p className="res-name">{name}</p>
