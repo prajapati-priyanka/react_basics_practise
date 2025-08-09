@@ -4,7 +4,7 @@ import "./Main.css";
 import axios from "axios";
 
 const Main = () => {
-  const [cardData, setCardData] = useState([]);
+  const [listOfRestaurants, setListOfRestaurants] = useState([]);
 
   const fetchData = async () => {
     const response = await axios.get(
@@ -14,20 +14,21 @@ const Main = () => {
     if (status === 200) {
       const responseData =
         data.data.cards[4].card.card.gridElements.infoWithStyle.restaurants;
-      setCardData(responseData);
+      setListOfRestaurants(responseData);
     }
   };
   useEffect(() => {
+    console.log("useEffect is called")
     fetchData();
   }, []);
 
 
-//   console.log(cardData[0])
+  console.log("before return;")
   return (
     <main className="main-container">
       <h3 className="main-heading">Restaurants Available to Serve Now</h3>
       <section className="res-card-container">
-        {cardData?.map((card) => (
+        {listOfRestaurants?.map((card) => (
           <RestaurantCard key={card?.info?.id} resData={card.info} />
         ))}
       </section>
