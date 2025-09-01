@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Header.css";
+import { Link } from "react-router";
 
 const Header = ()=>{
     const [loginBtn, setLoginBtn] = useState("Login");
@@ -10,7 +11,7 @@ const Header = ()=>{
                 <ul className="navbar-list">
                     <li>Wishlist</li>
                     <li>Cart</li>
-                    <li>Profile</li>
+                    <Link to="/profile"><li>Profile</li></Link>
                     <button className="btn login-btn" onClick={()=> loginBtn === "Login" ? setLoginBtn("Logout"): setLoginBtn("Login")}>{loginBtn}</button>
                 </ul>
             </nav>
