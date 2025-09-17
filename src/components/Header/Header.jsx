@@ -2,20 +2,33 @@ import { useState } from "react";
 import "./Header.css";
 import { Link } from "react-router";
 
-const Header = ()=>{
-    const [loginBtn, setLoginBtn] = useState("Login");
-    return(
-        <header className="header">
-            <h2 className="heading">Food Wizard</h2>
-            <nav className="navbar">
-                <ul className="navbar-list">
-                    <li>Wishlist</li>
-                    <li>Cart</li>
-                    <Link to="/profile"><li>Profile</li></Link>
-                    <button className="btn login-btn" onClick={()=> loginBtn === "Login" ? setLoginBtn("Logout"): setLoginBtn("Login")}>{loginBtn}</button>
-                </ul>
-            </nav>
-        </header>
-    )
-}
+const Header = () => {
+  const [loginBtn, setLoginBtn] = useState("Login");
+  return (
+    <header className="header">
+      <h2 className="heading">Food Wizard</h2>
+      <nav className="navbar">
+        <ul className="navbar-list">
+          <li>Wishlist</li>
+          <Link to="/cart">
+            <li>Cart</li>
+          </Link>
+          <Link to="/profile">
+            <li>Profile</li>
+          </Link>
+          <button
+            className="btn login-btn"
+            onClick={() =>
+              loginBtn === "Login"
+                ? setLoginBtn("Logout")
+                : setLoginBtn("Login")
+            }
+          >
+            {loginBtn}
+          </button>
+        </ul>
+      </nav>
+    </header>
+  );
+};
 export default Header;
