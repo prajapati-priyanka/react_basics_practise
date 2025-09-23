@@ -147,7 +147,14 @@ const config = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: "jsdom",
+  // testEnvironment: "jsdom",
+  testEnvironment: "jest-fixed-jsdom",
+  transform: {
+    "^.+\\.[jt]sx?$": "babel-jest",
+  },
+  moduleNameMapper: {
+    "\\.(css|scss|sass|less)$": "<rootDir>/src/__mocks__/styleMock.js",
+  },
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
