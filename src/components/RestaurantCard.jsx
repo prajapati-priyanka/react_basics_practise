@@ -2,7 +2,7 @@ import "./Main/Main.css";
 const RestaurantCard = (props) => {
     const {resData} = props;
     const {name,avgRating,sla:{slaString}, cuisines,locality,cloudinaryImageId} = resData;
-    // console.log("resData", resData);
+    console.log("resData", resData);
   return (
     <div className="res-card">
       <figure className="res-image">
